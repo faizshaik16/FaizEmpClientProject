@@ -7,7 +7,7 @@
 <title>Employee Detail Retrieval Form: Faiz</title>
 </head>
 <body>
-<form name="empform" action"EmpClientServlet"  method ="post">
+<form name="empform" action="EmpClientServlet"  method="post" >
 EmpID: <input type="text" name="empId" >
 <input type="submit" value="Get Employee Details ">
 </form>

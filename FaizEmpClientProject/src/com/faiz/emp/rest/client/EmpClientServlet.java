@@ -52,7 +52,7 @@ public class EmpClientServlet extends HttpServlet {
 		
 		
 		
-		WebResource webResource = client.resource("http://localhost:8080/FaizRestProject/api/v3/status/fp");
+		WebResource webResource = client.resource("http://localhost:8080/FaizEmpRestProject/emp/rest/status/empDet");
 
 		ClientResponse clientResponse = webResource.accept("text/html").post(ClientResponse.class, form);
 	
